@@ -27,6 +27,8 @@ public class InfoHandler {
     public static String TYPES_API = "http://"+HOST+"/ticket/webapi/types/";
 
 
+
+
     public InfoHandler(){
     }
 
@@ -87,6 +89,7 @@ public class InfoHandler {
         USERLOGIN_API = "http://"+HOST+"/ticket/webapi/secured/user/login/";
         BUY_TICKET_API = "http://"+HOST+"/ticket/webapi/secured/user/buy/";
         MY_TICKETS_API = "http://"+HOST+"/ticket/webapi/secured/user/mytickets/";
+        MY_VALID_TICKETS_API = "http://"+HOST+"/ticket/webapi/secured/user/myvalidtickets/";
         REGISTRATION_API = "http://"+HOST+"/ticket/webapi/registration/";
         TYPES_API = "http://"+HOST+"/ticket/webapi/types/";
     }
